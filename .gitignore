@@ -13,36 +13,6 @@ secretnotes.md
 imports/lib/
 public/fonts/
 
-# =============== #
-# Unity folders   #
-# =============== #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-3rdParty/
-Builds/
-
-# ===================================== #
-# Visual Studio / MonoDevelop generated #
-# ===================================== #
-ExportedObj/
-obj/
-*.svd
-*.userprefs
-*.csproj
-*.pidb
-*.suo
-*.sln
-*.user
-*.unityproj
-*.booproj
-
-# ===================================== #
-# Unity generated #
-# ===================================== #
-*.pidb.meta
-sysinfo.txt
-
 # ============ #
 # OS generated #
 # ============ #
