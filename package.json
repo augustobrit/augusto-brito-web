@@ -1,0 +1,23 @@
+{
+  "name": "augustobrit.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustobrit/augustobrit.github.io.git"
+  },
+  "author": "Augusto Brito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augustobrit/augustobrit.github.io/issues"
+  },
+  "homepage": "https://github.com/augustobrit/augustobrit.github.io#readme"
+}
