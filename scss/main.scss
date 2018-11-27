@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -57,7 +58,7 @@ main {
     margin-top: 1rem;
 
     a {
-      padding: 0.4rem;
+      padding: 0.2rem;
 
       &:hover {
         color: $secondary-color;
