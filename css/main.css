@@ -1,26 +1,17 @@
-@import "config";
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
-
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-// Body
 body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: $primary-color;
-  color: $text-color;
+  background: #181818;
+  color: #bababa;
   font-family: "Ubuntu", sans-serif;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
-// Heading
 h1 {
   margin: 0;
   font-weight: 700;
-  font-size: 2rem;
-}
-
-// Profile Section
+  font-size: 2rem; }
