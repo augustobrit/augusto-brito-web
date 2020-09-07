@@ -1,5 +1,5 @@
 {
-  "name": "augusto-brito-web",
+  "name": "augustobritome.github.io",
   "version": "1.0.0",
   "description": "My personal website",
   "main": "index.js",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/augustobrit/augusto-brito-web.git"
+    "url": "git+https://github.com/augustobritome/augustobritome.github.io.git"
   },
   "author": "Augusto Brito",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/augustobrit/augusto-brito-web/issues"
+    "url": "https://github.com/augustobritome/augustobritome.github.io/issues"
   },
-  "homepage": "https://github.com/augustobrit/augusto-brito-web#readme"
+  "homepage": "https://github.com/augustobritome/augustobritome.github.io#readme"
 }
