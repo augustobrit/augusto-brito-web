@@ -1,6 +1,6 @@
 $text-color: #bababa;
 $primary-color: #181818;
-$secondary-color: #4d739c;
+$secondary-color: #8fb339;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -20,7 +20,7 @@ $portrait-image: url(../img/portrait.jpg);
 
       &:after {
         content: "";
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 100%;
