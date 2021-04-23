@@ -1,91 +1,119 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
+
+:root {
+  font-size: 60%;
+}
+
 * {
-  box-sizing: border-box; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
 
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background: #181818;
-  color: #bababa;
-  font-family: "Ubuntu", sans-serif;
-  line-height: 1.5; }
-  body#bg-img {
-    background: url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover; }
-    body#bg-img:after {
-      content: "";
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      background: rgba(24, 24, 24, 0.9); }
+  background: #282a36;
+  color: #f8f8f2;
+  font: 500 1.6rem Fira Code, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-h1 {
-  margin: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  font-size: 2rem; }
+body#container-image {
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body#container-image:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(40, 42, 54, 0.9);
+}
 
 a {
-  color: #bababa;
-  text-decoration: none; }
+  color: #6272a4;
+}
 
-section {
-  padding: 4rem;
-  align-items: center;
-  text-align: center; }
-  section span {
-    font-size: 17px;
-    display: block; }
-  section .profile-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: auto;
-    margin-bottom: 40px;
-    position: relative;
-    border: 2px solid;
-    background: url(../img/portrait.jpg); }
-  section .icons {
-    margin-top: 2rem;
-    padding: 0 2rem;
-    display: inline-block;
-    position: relative; }
-    section .icons:after {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 100%;
-      width: 100px;
-      height: 2px;
-      background: #bababa;
-      content: "";
-      margin: auto; }
-    section .icons:before {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 100%;
-      width: 100px;
-      height: 2px;
-      background: #bababa;
-      content: "";
-      margin: auto; }
-    section .icons li {
-      display: inline-block; }
-    section .icons a {
-      display: block;
-      padding: 0.3rem;
-      font-size: 0.5rem; }
-      section .icons a:hover {
-        color: #8fb339;
-        transition: all 0.5s ease-out; }
+a:hover {
+  color: #ff79c6;
+  transition: all 0.5s ease-out;
+}
 
-footer {
+.container {
   text-align: center;
-  font-size: 0.7rem; }
+}
+
+.container .profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 4.8rem;
+  border: .7rem #6272a4 solid;
+  background: url(../img/portrait.jpg);
+  background-size: 100%;
+}
+
+.container .profile-title,
+a {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: .4rem;
+}
+
+.container span {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.container .menu {
+  margin: 2.8rem 0 1.4rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container .menu li a {
+  color: #f8f8f2;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.container .menu li+li {
+  margin-top: 1.2rem;
+}
+
+
+.container .icons {
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+
+.container .icons li {
+  display: inline-block;
+}
+
+.container .icons a {
+  display: block;
+  font-size: 1.2rem;
+}
+
+
+.container .footer {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+}
