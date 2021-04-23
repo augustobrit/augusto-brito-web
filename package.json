@@ -4,13 +4,8 @@
   "description": "My personal website",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1"
-  },
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "git push -u origin master"
   },
   "repository": {
     "type": "git",
